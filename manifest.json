@@ -1,0 +1,20 @@
+{
+  "name": "Manicure",
+  "short_name": "Manicure",
+  "theme_color": "#f05869",
+  "background_color": "#fefefe",
+  "display": "minimal-ui",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
