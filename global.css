@@ -39,3 +39,28 @@ body {
   color: var(--gray-1);
   -webkit-text-fill-color: var(--gray-1);
 }
+
+/* DRAG AREA */
+
+body.dragArea main {
+  filter: blur(8px) opacity(75%);
+}
+
+body.dragArea::after {
+  position: fixed;
+  left: var(--frame);
+  top: var(--frame);
+  width: calc(100vw - calc(var(--frame) * 2));
+  height: calc(100vh - calc(var(--frame) * 2));
+
+  background: rgba(255, 255, 255, 0.1);
+  border: dashed 2px var(--secondary-color-6);
+
+  color: var(--secondary-color-7);
+  content: 'Drop your pics here...';
+  font-family: var(--monospace);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 80vh;
+  text-align: center;
+}
