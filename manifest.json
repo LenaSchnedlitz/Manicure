@@ -3,7 +3,7 @@
   "short_name": "Manicure",
   "theme_color": "#f05869",
   "background_color": "#fefefe",
-  "display": "minimal-ui",
+  "display": "fullscreen",
   "start_url": "/manicure",
   "icons": [
     {
